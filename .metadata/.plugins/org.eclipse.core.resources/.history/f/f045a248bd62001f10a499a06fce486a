@@ -1,0 +1,27 @@
+package com.apro.main.entity;
+
+import java.io.Serializable;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "customer")
+public class Customer implements Serializable {
+	@Column
+	@Id
+	Long customerId;
+	@Column
+	String firstName;
+	@Column
+	String lastName;
+	@Column
+	String email;
+	@Column
+	String password;
+	@Column
+	long adminId;
+
+}

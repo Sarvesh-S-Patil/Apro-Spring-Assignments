@@ -1,0 +1,67 @@
+package com.apro.main.entity;
+
+import java.util.Date;
+
+public class Customer {
+	private int customerId;
+	private String firstName;
+	private String lastName;
+	private Date dateOfBirth;
+	private String emailId;
+	private int mobileNumber;
+	
+	
+	public Customer() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	public Customer(int customerId, String firstName, String lastName, Date dateOfBirth, String emailId,
+			int mobileNumber) {
+		super();
+		this.customerId = customerId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.dateOfBirth = dateOfBirth;
+		this.emailId = emailId;
+		this.mobileNumber = mobileNumber;
+	}
+	public int getCustomerId() {
+		return customerId;
+	}
+	public void setCustomerId(int customerId) {
+		this.customerId = customerId;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public Date getDateOfBirth() {
+		return dateOfBirth;
+	}
+	public void setDateOfBirth(Date dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+	public String getEmailId() {
+		return emailId;
+	}
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+	public int getMobileNumber() {
+		return mobileNumber;
+	}
+	public void setMobileNumber(int mobileNumber) {
+		this.mobileNumber = mobileNumber;
+	}
+
+	
+	
+}

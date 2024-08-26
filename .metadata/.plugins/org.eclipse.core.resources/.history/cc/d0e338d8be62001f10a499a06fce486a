@@ -1,0 +1,10 @@
+package com.apro.main.entity;
+
+public class Account {
+	String firstName;
+	String lastName;
+	String emailAddress;
+	long accountId;
+	double balance;
+	
+}

@@ -1,0 +1,22 @@
+package com.apro.main.DTO;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+
+@Data
+@RequiredArgsConstructor
+@AllArgsConstructor
+
+
+public class InstructorDTO {
+	
+	private int instructorId;
+
+	private String instructorName;
+	
+	private String email;
+
+	private String qualification;
+}

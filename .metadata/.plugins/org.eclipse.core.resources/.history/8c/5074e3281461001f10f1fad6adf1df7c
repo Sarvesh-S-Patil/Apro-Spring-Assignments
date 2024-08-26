@@ -1,0 +1,7 @@
+package com.apro.main.service;
+
+import com.apro.main.entity.Student;
+
+public interface StudentService {
+	public void addStudent(Student student);
+}

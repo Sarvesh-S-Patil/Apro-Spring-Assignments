@@ -1,0 +1,10 @@
+package com.apro.main.service;
+
+
+
+import com.apro.main.entity.Instructor;
+
+
+public interface InstructorService {
+	public Instructor addInstructor(Instructor instructor);
+}

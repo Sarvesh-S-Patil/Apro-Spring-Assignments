@@ -1,0 +1,12 @@
+package com.apro.main.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.apro.main.repository.ClientRepository;
+
+public class ClientService {
+	
+	@Autowired
+	ClientRepository clientRepository;
+
+}

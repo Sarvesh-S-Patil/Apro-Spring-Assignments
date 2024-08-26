@@ -1,0 +1,26 @@
+package com.apro.main.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.apro.main.entity.Bank;
+import com.apro.main.repository.BankRepository;
+
+public class BankService {
+	@Autowired
+	BankRepository bankRepository;
+	
+	public Bank addBank(Bank bank) {
+		 return bankRepository.save(bank);
+	}
+	
+	public Bank getBankById(long bankId) {
+		Optional<Bank> optionalBank = bankRepository.findById(bankId);
+		if(!optionalBank.isPresent())
+			return null;
+		return optionalBank.get();
+	}
+	
+	
+}

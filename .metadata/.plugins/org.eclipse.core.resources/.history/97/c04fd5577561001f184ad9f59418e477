@@ -1,0 +1,20 @@
+package com.apro.main.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotNull;
+
+@Entity
+@Table(name = "account")
+public class Account {
+	@Column
+	@Id
+	@NotNull
+	long accountNumber;
+	@Column
+	String accountHolderName;
+
+
+}

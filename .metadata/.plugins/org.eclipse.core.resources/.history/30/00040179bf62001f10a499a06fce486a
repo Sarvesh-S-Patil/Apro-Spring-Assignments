@@ -1,0 +1,11 @@
+package com.apro.main.entity;
+
+public class Transaction {
+    private long transactionId;
+    private long senderAccountId;
+    private long recieverAccountId;
+    private String transactionType;
+    private double amount;
+    private String date; 
+   
+}

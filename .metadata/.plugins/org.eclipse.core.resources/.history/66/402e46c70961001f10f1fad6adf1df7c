@@ -1,0 +1,9 @@
+package com.apro.main.exceptions;
+
+public class ErrorResponse{
+	private int statusCode;
+	private String errorMessage;
+	private long timestamp;
+	
+
+}

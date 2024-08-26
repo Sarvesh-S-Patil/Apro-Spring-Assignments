@@ -1,0 +1,34 @@
+package com.apro.main.repository;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.apro.main.entity.Customer;
+import com.apro.main.entity.Loan;
+
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.TypedQuery;
+
+@Repository
+public class LoanRepoImpl {
+	@Autowired
+	private EntityManager entityManager;
+	
+	public List<Loan> getAllLoans(){
+		TypedQuery<Loan> query =entityManager.createQuery("select l from Loan l",Loan.class);
+		return query.getResultList();
+	}
+	
+	public void addLoan(Loan loan) {
+		
+	}
+	
+	public Loan getLoanById(int loanId);
+	
+	public List<Loan> getLoanByStatus(String loanStatus);
+	
+	public void deleteLoan(int loanId);
+
+}

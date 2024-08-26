@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PageResponse.java&apos; to &apos;10-training-app/src/main/java/com.apro.main.DTO&apos;&#x0D;&#x0A;- Original project: &apos;04-spring-jpa-exception-app&apos;&#x0D;&#x0A;- Destination element: &apos;10-training-app/src/main/java/com.apro.main.DTO&apos;&#x0D;&#x0A;- Original element: &apos;com.apro.main.DTO.PageResponse.java&apos;" description="Copy compilation unit" destination="=10-training-app/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.apro.main.DTO" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.apro.main.DTO{PageResponse.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1724653490576" units="1" version="1.0"/>
+</session>

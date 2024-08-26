@@ -1,0 +1,21 @@
+package com.apro.main.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.apro.main.entity.Instructor;
+import com.apro.main.service.InstructorService;
+
+@RestController
+@RequestMapping("/student-app")
+public class InstructorController {
+	@Autowired
+	InstructorService instructorService;
+	
+	@PostMapping("/instructors")
+	public Instructor addInstructor(Instructor instructor) {
+		return instructorService.addInstructor(instructor);
+	}
+}

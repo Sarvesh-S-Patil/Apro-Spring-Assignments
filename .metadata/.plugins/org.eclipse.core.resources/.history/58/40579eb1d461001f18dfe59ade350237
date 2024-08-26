@@ -1,0 +1,14 @@
+package com.apro.main.DTO;
+
+import jakarta.persistence.Column;
+
+public class InstructorDTO {
+	
+	private int instructorId;
+
+	private String instructorName;
+	
+	private String email;
+
+	private String qualification;
+}

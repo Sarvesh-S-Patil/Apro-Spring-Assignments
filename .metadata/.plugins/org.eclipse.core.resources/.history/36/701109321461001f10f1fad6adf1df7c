@@ -1,0 +1,22 @@
+package com.apro.main.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.apro.main.entity.Student;
+import com.apro.main.repository.StudentRepository;
+
+
+@Service
+public class StudentServiceImpl implements StudentService {
+
+	@Autowired
+	StudentRepository studentRepository;
+	
+	@Override
+	public void addStudent(Student student) {
+		// TODO Auto-generated method stub
+		studentRepository.save(student);
+	}
+
+}

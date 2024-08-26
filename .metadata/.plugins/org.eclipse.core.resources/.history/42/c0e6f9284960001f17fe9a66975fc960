@@ -1,0 +1,9 @@
+package com.apro.main.error;
+
+public class StudentError {
+	
+	private int statusCode;
+	private String errorMessage;
+	private int timestamp;
+
+}

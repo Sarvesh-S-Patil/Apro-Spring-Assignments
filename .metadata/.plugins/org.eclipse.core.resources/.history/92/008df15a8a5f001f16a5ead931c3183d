@@ -1,0 +1,37 @@
+package com.apro.main.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.apro.main.entity.Student;
+import com.apro.main.repository.StudentRepository;
+
+@Service
+public class StudentService {
+	
+	@Autowired
+	StudentRepository studentRepository;
+	
+	public List<Student> getAllStudents(){
+		return studentRepository.findAll();
+	}
+	
+	public Optional<Student> getByRollNumber(int rollNumber) {
+		return studentRepository.findById(rollNumber);
+	}
+	
+	public void addStudent(Student student) {
+		studentRepository.save(student);
+	}
+	
+	public List<Student> getStudentByAge(int age) {
+		return studentRepository.findByAge(age);
+	}
+	
+	public void deleteStudent(int studentId) {
+		studentRepository.deleteById(studentId);
+	}
+}

@@ -1,0 +1,12 @@
+package com.apro.main.DTO;
+
+import jakarta.persistence.Column;
+
+public class StudentDTO {
+	
+	private int rollNumber;
+	private String name;
+	private String email;	
+	private int age;
+
+}

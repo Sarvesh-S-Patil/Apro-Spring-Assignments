@@ -1,0 +1,14 @@
+package com.apro.main.DTO;
+
+import java.util.List;
+
+import com.apro.main.entity.Student;
+
+public class StudentPageResponse {
+    int totalPages;
+    long totalElements;
+    int size;
+    List<Student> pageContent;
+    
+
+}

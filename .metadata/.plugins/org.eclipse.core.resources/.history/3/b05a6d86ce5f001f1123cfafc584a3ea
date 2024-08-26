@@ -1,0 +1,29 @@
+package com.apro.main.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="employee")
+public class Employee {
+	private int employeeId;
+	
+	private String firstName;
+	
+	private String lastName;
+	
+	private long phoneNumber;
+	
+	private String email;
+	
+	private String position;
+	
+	private double salary;
+	
+	private long bankAccountNumber;
+	
+	private long bankIfscNumber;
+	
+	private EmployeeStatus employeeStatus;
+
+}

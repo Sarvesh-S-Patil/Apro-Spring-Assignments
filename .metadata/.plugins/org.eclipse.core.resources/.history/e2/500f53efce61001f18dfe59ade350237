@@ -1,0 +1,27 @@
+package com.apro.main.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
+import lombok.Data;
+
+@Data
+@Entity
+@Table(name="course")
+
+public class Course {
+	@Column
+	private int courseId;
+	@Column
+	private String courseName;
+	@Column
+	private int duration;
+	@Column
+	private double fees;
+	@ManyToOne
+	@JoinColumn(name = "instructorId")
+	private Instructor instructor;
+
+}

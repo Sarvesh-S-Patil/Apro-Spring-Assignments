@@ -1,0 +1,17 @@
+package com.apro.main.DTO;
+
+import jakarta.persistence.Column;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
+
+@Data
+@RequiredArgsConstructor
+@AllArgsConstructor
+public class CourseDTO {
+	private int courseId;
+	private String courseName;
+	private int duration;
+	private double fees;
+}

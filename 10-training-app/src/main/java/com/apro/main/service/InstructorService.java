@@ -23,6 +23,5 @@ public interface InstructorService {
 	public PageResponse<InstructorDTO> getAllInstructors(int pageNumber,int pageSize);
 	
 	public InstructorDTO getInstructor(int instructorId);
-	
-		
+			
 }

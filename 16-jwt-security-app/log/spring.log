@@ -1,0 +1,266 @@
+2024-09-02T10:26:36.466+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 1468 (D:\Spring Assignments\16-jwt-security-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\16-jwt-security-app)
+2024-09-02T10:26:36.488+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T10:26:36.567+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-02T10:26:36.568+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-02T10:26:37.595+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T10:26:37.711+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 3 JPA repository interfaces.
+2024-09-02T10:26:38.467+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T10:26:38.487+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T10:26:38.488+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T10:26:38.566+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-02T10:26:38.566+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1998 ms
+2024-09-02T10:26:38.748+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02T10:26:38.824+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-02T10:26:38.876+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-02T10:26:39.251+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T10:26:39.284+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-02T10:26:39.733+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ddcccd5
+2024-09-02T10:26:39.736+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-02T10:26:40.938+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02T10:26:41.053+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:26:41.592+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-09-02T10:26:41.667+05:30  WARN 1468 --- [16-jwt-security-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T10:26:42.383+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T10:26:42.452+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T10:26:42.464+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Started Application in 6.536 seconds (process running for 7.888)
+2024-09-02T10:36:42.388+05:30  INFO 1468 --- [16-jwt-security-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02T10:36:42.417+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:36:42.421+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-02T10:36:42.439+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-02T10:36:42.550+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 1468 (D:\Spring Assignments\16-jwt-security-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\16-jwt-security-app)
+2024-09-02T10:36:42.551+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T10:36:42.821+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T10:36:42.872+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2024-09-02T10:36:43.037+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T10:36:43.039+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T10:36:43.040+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T10:36:43.067+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-02T10:36:43.068+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 514 ms
+2024-09-02T10:36:43.162+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02T10:36:43.165+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-02T10:36:43.175+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T10:36:43.176+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-09-02T10:36:43.201+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ed13988
+2024-09-02T10:36:43.202+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-09-02T10:36:43.294+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02T10:36:43.317+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:36:43.461+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-09-02T10:36:43.499+05:30  WARN 1468 --- [16-jwt-security-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T10:36:43.848+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T10:36:43.864+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T10:36:43.869+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Started Application in 1.369 seconds (process running for 609.293)
+2024-09-02T10:36:43.872+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T10:37:14.054+05:30  INFO 1468 --- [16-jwt-security-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02T10:37:14.073+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:37:14.073+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-09-02T10:37:14.093+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-09-02T10:37:14.226+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 1468 (D:\Spring Assignments\16-jwt-security-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\16-jwt-security-app)
+2024-09-02T10:37:14.226+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T10:37:14.474+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T10:37:14.522+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2024-09-02T10:37:14.657+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T10:37:14.658+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T10:37:14.658+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T10:37:14.687+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-02T10:37:14.687+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 457 ms
+2024-09-02T10:37:14.768+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02T10:37:14.770+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-02T10:37:14.778+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T10:37:14.779+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-09-02T10:37:14.801+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5876db1f
+2024-09-02T10:37:14.802+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-09-02T10:37:14.927+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02T10:37:14.950+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:37:15.098+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-09-02T10:37:15.140+05:30  WARN 1468 --- [16-jwt-security-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T10:37:15.488+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T10:37:15.506+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T10:37:15.511+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Started Application in 1.327 seconds (process running for 640.936)
+2024-09-02T10:37:15.513+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T10:37:20.748+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02T10:37:20.750+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-02T10:37:20.754+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2024-09-02T10:47:36.207+05:30  INFO 1468 --- [16-jwt-security-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02T10:47:36.226+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:47:36.227+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-09-02T10:47:36.236+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-09-02T10:47:36.373+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 1468 (D:\Spring Assignments\16-jwt-security-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\16-jwt-security-app)
+2024-09-02T10:47:36.374+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T10:47:36.631+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T10:47:36.699+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2024-09-02T10:47:36.841+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T10:47:36.844+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T10:47:36.844+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T10:47:36.869+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-02T10:47:36.870+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 494 ms
+2024-09-02T10:47:36.948+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02T10:47:36.951+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-02T10:47:36.961+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T10:47:36.963+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-09-02T10:47:36.997+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68c3176
+2024-09-02T10:47:36.997+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-09-02T10:47:37.083+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02T10:47:37.105+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:47:37.278+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-09-02T10:47:37.316+05:30  WARN 1468 --- [16-jwt-security-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T10:47:37.653+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T10:47:37.673+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T10:47:37.677+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Started Application in 1.352 seconds (process running for 1263.103)
+2024-09-02T10:47:37.680+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T10:47:57.100+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02T10:47:57.100+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-02T10:47:57.103+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-02T10:55:48.621+05:30  INFO 1468 --- [16-jwt-security-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02T10:55:48.641+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:55:48.642+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-09-02T10:55:48.648+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-09-02T10:55:48.785+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 1468 (D:\Spring Assignments\16-jwt-security-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\16-jwt-security-app)
+2024-09-02T10:55:48.785+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T10:55:49.012+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T10:55:49.060+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2024-09-02T10:55:49.192+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T10:55:49.194+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T10:55:49.194+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T10:55:49.213+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-02T10:55:49.214+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 426 ms
+2024-09-02T10:55:49.283+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02T10:55:49.285+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-02T10:55:49.291+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T10:55:49.292+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-09-02T10:55:49.315+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ae5e0b7
+2024-09-02T10:55:49.315+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-09-02T10:55:49.399+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02T10:55:49.421+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:55:49.570+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-09-02T10:55:49.608+05:30  WARN 1468 --- [16-jwt-security-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T10:55:49.957+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T10:55:49.974+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T10:55:49.978+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Started Application in 1.237 seconds (process running for 1755.403)
+2024-09-02T10:55:49.980+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T10:56:08.773+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02T10:56:08.773+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-02T10:56:08.775+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-02T10:57:17.770+05:30  INFO 1468 --- [16-jwt-security-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02T10:57:17.787+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-19] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:57:17.789+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-09-02T10:57:17.797+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-19] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-09-02T10:57:17.912+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 1468 (D:\Spring Assignments\16-jwt-security-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\16-jwt-security-app)
+2024-09-02T10:57:17.912+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T10:57:18.172+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T10:57:18.221+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2024-09-02T10:57:18.374+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T10:57:18.375+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T10:57:18.375+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T10:57:18.392+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-02T10:57:18.392+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 478 ms
+2024-09-02T10:57:18.452+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02T10:57:18.454+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-02T10:57:18.463+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T10:57:18.464+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-09-02T10:57:18.486+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77bf5cb9
+2024-09-02T10:57:18.486+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-09-02T10:57:18.559+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02T10:57:18.580+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:57:18.731+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-09-02T10:57:18.783+05:30  WARN 1468 --- [16-jwt-security-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T10:57:19.176+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T10:57:19.195+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T10:57:19.200+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Started Application in 1.323 seconds (process running for 1844.625)
+2024-09-02T10:57:19.202+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T10:57:20.646+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02T10:57:20.646+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-02T10:57:20.648+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-02T10:57:43.211+05:30  INFO 1468 --- [16-jwt-security-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02T10:57:43.226+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-23] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:57:43.227+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-09-02T10:57:43.234+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-23] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-09-02T10:57:43.355+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 1468 (D:\Spring Assignments\16-jwt-security-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\16-jwt-security-app)
+2024-09-02T10:57:43.356+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T10:57:43.600+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T10:57:43.647+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 3 JPA repository interfaces.
+2024-09-02T10:57:43.764+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T10:57:43.765+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T10:57:43.765+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T10:57:43.824+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-02T10:57:43.824+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 466 ms
+2024-09-02T10:57:43.889+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02T10:57:43.891+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-02T10:57:43.898+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T10:57:43.899+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-09-02T10:57:43.920+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6483f476
+2024-09-02T10:57:43.920+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-09-02T10:57:43.992+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02T10:57:44.016+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T10:57:44.177+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-09-02T10:57:44.215+05:30  WARN 1468 --- [16-jwt-security-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T10:57:44.513+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T10:57:44.529+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T10:57:44.534+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Started Application in 1.213 seconds (process running for 1869.959)
+2024-09-02T10:57:44.537+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T10:57:47.157+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02T10:57:47.157+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-02T10:57:47.159+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-09-02T11:00:06.547+05:30  INFO 1468 --- [16-jwt-security-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02T11:00:06.561+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-27] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T11:00:06.561+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-09-02T11:00:06.566+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-27] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-09-02T11:00:06.650+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 1468 (D:\Spring Assignments\16-jwt-security-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\16-jwt-security-app)
+2024-09-02T11:00:06.650+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T11:00:06.817+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T11:00:06.848+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 3 JPA repository interfaces.
+2024-09-02T11:00:06.933+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T11:00:06.934+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T11:00:06.934+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T11:00:06.957+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-02T11:00:06.957+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 306 ms
+2024-09-02T11:00:07.002+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02T11:00:07.003+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-02T11:00:07.006+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T11:00:07.007+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-09-02T11:00:07.022+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fe3f87c
+2024-09-02T11:00:07.022+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-09-02T11:00:07.069+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02T11:00:07.085+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T11:00:07.184+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-09-02T11:00:07.205+05:30  WARN 1468 --- [16-jwt-security-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T11:00:07.415+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T11:00:07.426+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T11:00:07.429+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Started Application in 0.8 seconds (process running for 2012.854)
+2024-09-02T11:00:07.430+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T11:00:08.264+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02T11:00:08.265+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-02T11:00:08.266+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-02T11:02:29.244+05:30  INFO 1468 --- [16-jwt-security-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-02T11:02:29.255+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T11:02:29.256+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-09-02T11:02:29.261+05:30  INFO 1468 --- [16-jwt-security-app] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-09-02T11:02:29.357+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 1468 (D:\Spring Assignments\16-jwt-security-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\16-jwt-security-app)
+2024-09-02T11:02:29.357+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-09-02T11:02:29.523+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-02T11:02:29.549+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 3 JPA repository interfaces.
+2024-09-02T11:02:29.645+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-02T11:02:29.646+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-02T11:02:29.646+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-02T11:02:29.659+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-02T11:02:29.659+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 301 ms
+2024-09-02T11:02:29.704+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-02T11:02:29.705+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-02T11:02:29.709+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-02T11:02:29.710+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-09-02T11:02:29.725+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@238dfd1b
+2024-09-02T11:02:29.725+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-09-02T11:02:29.771+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-02T11:02:29.787+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T11:02:29.876+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2024-09-02T11:02:29.901+05:30  WARN 1468 --- [16-jwt-security-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-02T11:02:30.138+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-02T11:02:30.151+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-02T11:02:30.155+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] com.apro.main.Application                : Started Application in 0.82 seconds (process running for 2155.58)
+2024-09-02T11:02:30.163+05:30  INFO 1468 --- [16-jwt-security-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-02T11:02:33.614+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-02T11:02:33.614+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-02T11:02:33.614+05:30  INFO 1468 --- [16-jwt-security-app] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-09-02T11:38:09.835+05:30  INFO 1468 --- [16-jwt-security-app] [RMI TCP Connection(106)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-09-02T11:38:09.849+05:30  INFO 1468 --- [16-jwt-security-app] [RMI TCP Connection(106)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-02T11:38:09.849+05:30  INFO 1468 --- [16-jwt-security-app] [RMI TCP Connection(106)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-09-02T11:38:09.854+05:30  INFO 1468 --- [16-jwt-security-app] [RMI TCP Connection(106)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.

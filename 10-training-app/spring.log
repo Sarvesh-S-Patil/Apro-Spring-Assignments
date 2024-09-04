@@ -1,0 +1,82 @@
+2024-08-28T12:04:27.751+05:30  INFO 19840 --- [09-training-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 19840 (D:\Spring Assignments\10-training-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\10-training-app)
+2024-08-28T12:04:27.752+05:30  INFO 19840 --- [09-training-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T12:04:27.927+05:30  INFO 19840 --- [09-training-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T12:04:27.968+05:30  INFO 19840 --- [09-training-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2024-08-28T12:04:28.088+05:30  INFO 19840 --- [09-training-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-28T12:04:28.089+05:30  INFO 19840 --- [09-training-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T12:04:28.089+05:30  INFO 19840 --- [09-training-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T12:04:28.108+05:30  INFO 19840 --- [09-training-app] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-08-28T12:04:28.108+05:30  INFO 19840 --- [09-training-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 353 ms
+2024-08-28T12:04:28.153+05:30  INFO 19840 --- [09-training-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T12:04:28.154+05:30  INFO 19840 --- [09-training-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-28T12:04:28.160+05:30  INFO 19840 --- [09-training-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T12:04:28.160+05:30  INFO 19840 --- [09-training-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-08-28T12:04:28.176+05:30  INFO 19840 --- [09-training-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38ca9c9c
+2024-08-28T12:04:28.176+05:30  INFO 19840 --- [09-training-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-08-28T12:04:28.298+05:30  INFO 19840 --- [09-training-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28T12:04:28.340+05:30  INFO 19840 --- [09-training-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T12:04:28.430+05:30  WARN 19840 --- [09-training-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T12:04:28.553+05:30  INFO 19840 --- [09-training-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T12:04:28.569+05:30  INFO 19840 --- [09-training-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-28T12:04:28.572+05:30  INFO 19840 --- [09-training-app] [restartedMain] com.apro.main.Application                : Started Application in 0.897 seconds (process running for 1024.03)
+2024-08-28T12:04:28.575+05:30  INFO 19840 --- [09-training-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T12:06:53.519+05:30  INFO 19840 --- [09-training-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28T12:06:53.532+05:30  INFO 19840 --- [09-training-app] [Thread-30] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T12:06:53.532+05:30  INFO 19840 --- [09-training-app] [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-08-28T12:06:53.536+05:30  INFO 19840 --- [09-training-app] [Thread-30] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-08-28T12:09:07.968+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 19188 (D:\Spring Assignments\10-training-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\10-training-app)
+2024-08-28T12:09:07.969+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T12:09:08.132+05:30  INFO 19188 --- [09-training-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T12:09:08.166+05:30  INFO 19188 --- [09-training-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 3 JPA repository interfaces.
+2024-08-28T12:09:08.243+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-28T12:09:08.243+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T12:09:08.243+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T12:09:08.264+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T12:09:08.265+05:30  INFO 19188 --- [09-training-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 295 ms
+2024-08-28T12:09:08.297+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T12:09:08.298+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-28T12:09:08.304+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T12:09:08.305+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-28T12:09:08.320+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d8edf09
+2024-08-28T12:09:08.320+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-28T12:09:08.395+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28T12:09:08.423+05:30  INFO 19188 --- [09-training-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T12:09:08.501+05:30  WARN 19188 --- [09-training-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T12:09:08.622+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T12:09:08.637+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-28T12:09:08.643+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.apro.main.Application                : Started Application in 0.698 seconds (process running for 41.095)
+2024-08-28T12:09:08.647+05:30  INFO 19188 --- [09-training-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T12:15:16.656+05:30  INFO 19188 --- [09-training-app] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-28T12:15:16.670+05:30  INFO 19188 --- [09-training-app] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T12:15:16.671+05:30  INFO 19188 --- [09-training-app] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-08-28T12:15:16.677+05:30  INFO 19188 --- [09-training-app] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-08-28T12:15:16.763+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.apro.main.Application                : Starting Application using Java 21.0.3 with PID 19188 (D:\Spring Assignments\10-training-app\target\classes started by Sarvesh.Patil in D:\Spring Assignments\10-training-app)
+2024-08-28T12:15:16.763+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.apro.main.Application                : No active profile set, falling back to 1 default profile: "default"
+2024-08-28T12:15:16.897+05:30  INFO 19188 --- [09-training-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-28T12:15:16.926+05:30  INFO 19188 --- [09-training-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 3 JPA repository interfaces.
+2024-08-28T12:15:16.986+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-28T12:15:16.987+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-28T12:15:16.987+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-08-28T12:15:17.010+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-28T12:15:17.010+05:30  INFO 19188 --- [09-training-app] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 246 ms
+2024-08-28T12:15:17.036+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-28T12:15:17.038+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-28T12:15:17.044+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-28T12:15:17.045+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-08-28T12:15:17.061+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58cd4077
+2024-08-28T12:15:17.061+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-08-28T12:15:17.136+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-28T12:15:17.166+05:30  INFO 19188 --- [09-training-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T12:15:17.241+05:30  WARN 19188 --- [09-training-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-28T12:15:17.317+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-28T12:15:17.331+05:30  INFO 19188 --- [09-training-app] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-28T12:15:17.334+05:30  INFO 19188 --- [09-training-app] [restartedMain] com.apro.main.Application                : Started Application in 0.595 seconds (process running for 409.787)
+2024-08-28T12:15:17.335+05:30  INFO 19188 --- [09-training-app] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-28T12:15:37.322+05:30  INFO 19188 --- [09-training-app] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-28T12:15:37.322+05:30  INFO 19188 --- [09-training-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-28T12:15:37.322+05:30  INFO 19188 --- [09-training-app] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-08-28T12:15:37.557+05:30  INFO 19188 --- [09-training-app] [http-nio-8080-exec-2] c.apro.main.service.CourseServiceImpl    : Course added successfully
+2024-08-28T12:38:24.832+05:30  INFO 19188 --- [09-training-app] [RMI TCP Connection(45)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-08-28T12:38:24.849+05:30  INFO 19188 --- [09-training-app] [RMI TCP Connection(45)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-28T12:38:24.851+05:30  INFO 19188 --- [09-training-app] [RMI TCP Connection(45)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-08-28T12:38:24.859+05:30  INFO 19188 --- [09-training-app] [RMI TCP Connection(45)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.

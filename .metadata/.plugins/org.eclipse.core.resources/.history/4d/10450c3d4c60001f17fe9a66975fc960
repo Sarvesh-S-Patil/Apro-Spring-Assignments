@@ -1,9 +1,0 @@
-package com.apro.main.error;
-
-public class StudentErrorResponse {
-	
-	private int statusCode;
-	private String errorMessage;
-	private int timestamp;
-
-}

@@ -1,9 +1,0 @@
-package com.apro.main.service;
-
-import com.apro.main.DTO.CourseDTO;
-import com.apro.main.entity.Course;
-
-public interface CourseRepo{
-	
-	public Course addCourse(CourseDTO courseDTO);
-}

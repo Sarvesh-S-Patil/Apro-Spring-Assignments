@@ -4,4 +4,23 @@
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="443"/>
+		<item key="y" value="6"/>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="21_batchprocessing_assignment-app"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="21_batchprocessing_assignment-app"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
 </section>

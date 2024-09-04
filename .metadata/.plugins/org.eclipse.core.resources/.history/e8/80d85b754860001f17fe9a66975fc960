@@ -1,5 +1,0 @@
-package com.apro.main.exception;
-
-public class StudentNotFoundException {
-
-}

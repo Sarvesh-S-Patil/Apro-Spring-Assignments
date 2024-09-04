@@ -1,9 +1,0 @@
-package com.apro.main.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.apro.main.entity.Client;
-
-public interface BankRepository extends JpaRepository<Client,Long> {
-
-}

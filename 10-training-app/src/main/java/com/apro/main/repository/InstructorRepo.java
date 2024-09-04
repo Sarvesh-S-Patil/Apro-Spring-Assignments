@@ -7,5 +7,5 @@ import com.apro.main.entity.Instructor;
 
 @Repository
 public interface InstructorRepo extends JpaRepository<Instructor,Integer> {
-
+	
 }

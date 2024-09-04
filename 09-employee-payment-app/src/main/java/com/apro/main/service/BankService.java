@@ -34,11 +34,12 @@ public class BankService {
 		if(bank == null)
 			return null;
 		List<SalaryAccount> accounts = bank.getAccounts();
-		SalaryAccount salaryAccount =salaryAccountRepository.save(account);
-		salaryAccount.setBank(bank);
+//		SalaryAccount salaryAccount =salaryAccountRepository.save(account);
+		
+		account.setBank(bank);
 		accounts.add(account);
 		bank.setAccounts(accounts);
-		salaryAccountRepository.save(salaryAccount);
+		salaryAccountRepository.save(account);
 		return bankRepository.save(bank);
 	}
 }
